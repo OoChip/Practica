@@ -53,5 +53,18 @@ for (let i = 1; i <= input; i++) {
     } else {
         console.log (i)
     }
+}     
+    
+console.log ("Fatorial")
 
+function factorial (num) {
+    let j= 1;
+    for ( i = num ; i > 0 ; i-- ) {
+        j *= i
+    } 
+    return j;
+    
 }
+
+console.log (factorial(11))
+
